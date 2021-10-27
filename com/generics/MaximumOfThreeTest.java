@@ -7,11 +7,11 @@ public class MaximumOfThreeTest {
 		System.out.println("Welcome To Maximum Of Three Generic Program");
 
 		// Creation Of Object
-		MaximumOfThree maximumOfThree = new MaximumOfThree(122, 128, 120);
+		MaximumOfThree maximumOfThree = new MaximumOfThree(10.3f, 10.2f, 10.5f);
 		// Method Calling
-		Integer max = maximumOfThree.testMaximum();
+		Float max = maximumOfThree.testMaximum();
 		// Print Result
-		System.out.println("Maximum Number is: " + max);
+		System.out.println("Maximum Float Number is: " + max);
 	}
 
 }
